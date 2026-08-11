@@ -1,0 +1,33 @@
+name: 버그 보고
+description: 재현 가능한 문제를 기록합니다.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 문제
+      description: 현재 어떤 문제가 발생하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 재현 방법
+      description: 문제를 재현하는 순서를 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 결과
+      description: 정상이라면 어떻게 동작해야 하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 완료 조건
+      description: 무엇을 확인하면 이 Issue가 끝났다고 판단할 수 있나요?
+    validations:
+      required: true
