@@ -1,0 +1,13 @@
+//
+// Created by sj on 2026. 8. 12..
+//
+
+#ifndef LIG_GITHUB_COLLABORATION_PRACTICE_MOTOR_H
+#define LIG_GITHUB_COLLABORATION_PRACTICE_MOTOR_H
+
+
+class motor {
+};
+
+
+#endif //LIG_GITHUB_COLLABORATION_PRACTICE_MOTOR_H
