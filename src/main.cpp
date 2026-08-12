@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    Device device("Team Alpha device");
+    Device device("Team Beta device");
     std::cout << device.status_message() << '\n';
     return 0;
 }
